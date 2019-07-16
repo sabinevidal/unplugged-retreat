@@ -586,13 +586,6 @@ textarea {
     width: 50%;
   }
   /* Reviews */
-  
-  .reviews .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: row wrap;
-  }
 
   .reviews article {
     display: flex;
@@ -603,7 +596,7 @@ textarea {
     width: 90%;
   }
 
-  .reviews article div,
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -653,7 +646,9 @@ textarea {
     .mission-content p {
         width: 40%;
     }
-
+    .map figure {
+      padding-bottom: 46%; 
+    }
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
@@ -752,7 +747,9 @@ textarea {
    .contact-section .content-wrapper h2 {
        width: 100%;
    }
-
+   .map figure {
+    padding-bottom: 37.25%; 
+    }
    .contact-section .content-wrapper h2 {
        margin-bottom: 40px;
    }
