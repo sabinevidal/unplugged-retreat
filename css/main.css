@@ -235,14 +235,24 @@ textarea {
     justify-content: space-around;
     align-items: center;
   }
+ 
   footer .social-icons p {
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  footer .social-icons i {
+    font-size: 1.125em;
+  }
+
   footer .copyright {
     margin: 20px 0;
   }
+
   
   
   /*------------------ MOBILE STYLES - homepage -------------------*/
@@ -651,7 +661,7 @@ textarea {
         width: 40%;
     }
     .map figure {
-      padding-bottom: 46%; 
+      padding-bottom: 45.5%; 
     }
     .contact-section .content-wrapper h2 {
         width: 80%;
@@ -750,6 +760,7 @@ textarea {
    .mission h2,
    .contact-section .content-wrapper h2 {
        width: 100%;
+       font-size: 3em;
    }
    .map figure {
     padding-bottom: 37.25%; 
