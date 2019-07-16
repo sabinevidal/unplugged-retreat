@@ -105,39 +105,40 @@ textarea {
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+    color: #e2e3ed;
+    text-align: left;
   }
    
   ul, 
   ol {
     font-size: 1.125em;
+    font-weight: bold;
     text-transform: uppercase;
-    list-style: none;
+    list-style-type: none;
   }
    
   a {
     color: #e2e3ed;
     text-decoration: none;
   }
-  
- /* h1 {
-    color: #e2e3ed;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.25em;
-  } */
 
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
+    font-weight: 500;
   }
 
   h3, 
   h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
+    font-weight: 400;
+    margin: 20px 0;
   }
    
   p {
     font-size: 0.875em;
+    font-weight: 400;
     line-height: 1.124em;
   }
    
@@ -161,6 +162,7 @@ textarea {
   
   header,
   footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,12 +183,16 @@ textarea {
     margin: 0;
   }
   .header-divider {
+    background: #3a3a3a; 
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
 
   }
   header nav {
+    width: 60%;
+    font-size: 1.125em;
+    font-weight: 700;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -202,6 +208,7 @@ textarea {
 
   footer {
     flex-direction: column;
+    text-align: center;
   }
   footer p {
     margin: 0;
@@ -215,7 +222,7 @@ textarea {
   }
   footer .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   footer .social-icons p {
@@ -239,10 +246,44 @@ textarea {
  
   /* Aside */
   aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  aside .content-wrapper {
+    margin-top: 30px;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #9d9ea4;
+    font-style: italic;
+    font-size: 0.875em;
+    height: 60px;
+   
+    
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
  
   /* Features */
@@ -254,6 +295,7 @@ textarea {
  }
 .features h2 {
   margin-bottom: 60px;
+  padding-right: 20px;
 }
 .features article {
   width: 55%;
@@ -268,17 +310,20 @@ textarea {
 
 .features p {
   margin: 0;
+  text-align: center;
 }
 
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 .reviews h3 {
   width: 55%;
@@ -289,12 +334,14 @@ textarea {
    About Page
    ========================================================================== */
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,6 +357,7 @@ textarea {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -323,10 +371,15 @@ textarea {
   flex-flow: row wrap;
 }
 .faq h2 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .faq-content {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
+  font-weight: 700;
 }
 
 
@@ -425,7 +478,15 @@ textarea {
     max-width: 640px;
     margin: 100px 0;
   }
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
 
+  h3 {
+      font-size: 1.5em;
+      line-height: 1.25;
+  }
   /*header*/
   header {
     justify-content: space-around;
@@ -436,9 +497,14 @@ textarea {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
+  
   header nav ul {
     justify-content: space-between;
   }
@@ -446,7 +512,11 @@ textarea {
     display: none;
   }
   /* Hero Area */
-
+  .hero-area h1 {
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
   /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
@@ -476,8 +546,18 @@ textarea {
     display: flex;
     justify-content: space-between;
   }
+
+  .reviews h2 {
+    width: 90%;
+  }
+
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -485,13 +565,23 @@ textarea {
     width: 65%;
     margin: 100px 0;
   }
-  .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-direction: row;
   }
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer h4 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+    line-height: 1.285;
   }
   footer .copyright {
     width: 100%;
@@ -521,6 +611,10 @@ textarea {
         align-items: flex-start;
     }
 
+    .contact-content h4 {
+      font-size: 1.5em;
+    }
+
    /* ==========================================================================
    FAQ Page
    ========================================================================== */
@@ -535,12 +629,32 @@ textarea {
     .faq h2 {
         width: 100%;
     }
+
+    .faq h4,
+    .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
   /*general styles*/
   .content-wrapper {
     max-width: 960px;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3,
+  h4 {
+      font-size: 1.875em;
+  }
+
+  p {
+      font-size: 1.125em;
+      line-height: 1.333;
   }
 
   /* Hero Area */
@@ -556,6 +670,10 @@ textarea {
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
     width: 30%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
   }
 
   /* Features */
@@ -586,6 +704,11 @@ textarea {
        margin-bottom: 40px;
    }
 
+   .contact-content h4 {
+    font-size: 1.875em;
+  }
+
+
 
 /* ==========================================================================
   FAQ Page
@@ -598,6 +721,11 @@ textarea {
        flex-basis: 35%;
    }
 
+    .faq h4,
+    .faq p {
+      font-size: 1.125em;
+      line-height: 1;
+    }
 
 }
 
