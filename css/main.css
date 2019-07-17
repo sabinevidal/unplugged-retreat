@@ -610,6 +610,9 @@ textarea {
   }
   /* Reviews */
 
+  .reviews .content-wrapper {
+    margin-top: 70px;
+  }
   .reviews article {
     display: flex;
     justify-content: space-between;
