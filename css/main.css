@@ -748,7 +748,7 @@ textarea {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 30%;
+    width: 34%;
   }
 
   .form-description p {
@@ -758,7 +758,7 @@ textarea {
   /* Features */
 
   .features h2 {
-    width: 70%;
+    width: 90%;
   }
 
   .features article {
@@ -768,7 +768,7 @@ textarea {
   /* Reviews */
 
   .reviews article div {
-    width: 42%;
+    width: 47%;
   }
 
   /* ==========================================================================
